@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cnn test on Web browser" >
+
+    <parameter name = "url" value = "http://www.cnn.com"/>
+
+    <test name = " Chase Bank Home Page ">
+        <classes>
+            <class name="bank.chase.ChaseHome"/>
+        </classes>
+    </test>
+
+</suite>
