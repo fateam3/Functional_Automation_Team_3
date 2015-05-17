@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ebusiness/Amazon.iml" filepath="$PROJECT_DIR$/Ebusiness/Amazon.iml" />
       <module fileurl="file://$PROJECT_DIR$/BankTest/BankTest.iml" filepath="$PROJECT_DIR$/BankTest/BankTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ebusiness/Ebusiness.iml" filepath="$PROJECT_DIR$/Ebusiness/Ebusiness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocialSite/FaceBook.iml" filepath="$PROJECT_DIR$/SocialSite/FaceBook.iml" />
       <module fileurl="file://$PROJECT_DIR$/FunctionalTesting.iml" filepath="$PROJECT_DIR$/FunctionalTesting.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SocialSite/SocialSite.iml" filepath="$PROJECT_DIR$/SocialSite/SocialSite.iml" />
       <module fileurl="file://$PROJECT_DIR$/TaxiFareUS/TaxiFareUS.iml" filepath="$PROJECT_DIR$/TaxiFareUS/TaxiFareUS.iml" />
     </modules>
   </component>

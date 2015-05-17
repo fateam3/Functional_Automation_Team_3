@@ -25,8 +25,8 @@
         <processorPath useClasspath="true" />
         <module name="Common" />
         <module name="Ebusiness" />
+        <module name="FaceBook" />
         <module name="SocialSite" />
-        <module name="TaxiFareUS" />
       </profile>
       <profile default="false" name="Annotation profile for BankTest" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -35,15 +35,31 @@
         <processorPath useClasspath="true" />
         <module name="BankTest" />
       </profile>
+      <profile default="false" name="Annotation profile for TaxiFareUS" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TaxiFareUS" />
+      </profile>
+      <profile default="false" name="Annotation profile for Amazon" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Amazon" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
       <module name="BankTest" target="1.8" />
       <module name="Common" target="1.5" />
       <module name="Ebusiness" target="1.5" />
+      <module name="FaceBook" target="1.5" />
       <module name="FunctionalTesting" target="1.5" />
       <module name="FuntionalTesting" target="1.5" />
       <module name="SocialSite" target="1.5" />
-      <module name="TaxiFareUS" target="1.5" />
+      <module name="TaxiFareUS" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

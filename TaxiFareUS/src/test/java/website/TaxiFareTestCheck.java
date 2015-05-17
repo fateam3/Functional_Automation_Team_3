@@ -70,7 +70,8 @@ public class TaxiFareTestCheck extends taxifareApi.TaxiFareBase{
                 //  new Select(driver.findElement(By.id("countrySelect"))).selectByValue('"'+listMenu.get(0)+'"');
                 // .selectByVisibleText("United States of America");
 
-                for (int j = 0; j < listUSACity.size(); j++) {
+              //  for (int j = 0; j < listUSACity.size(); j++) {
+                    for (int j = 0; j < 5; j++) {
                     if(j>0){
                         System.out.println("\n City:-->  "+listUSACity.get(j)  );
 
@@ -98,9 +99,9 @@ public class TaxiFareTestCheck extends taxifareApi.TaxiFareBase{
            // if(select.getAttribute("value") != "") {
                  //         System.out.println(select.getAttribute("value"));
 
-               //   System.out.println( option.getText() + " ----- GetAttribute-----" + select.getAttribute("value"));
-                   System.out.print(option.getText());
-                   System.out.println(select.getAttribute("value"));
+              //  System.out.println( option.getText() + " ----- GetAttribute-----"+ " "+"  " + select.getAttribute("value"));
+                  System.out.print(option.getText());
+                //   System.out.println(select.getAttribute("value"));
 //                  if ("Upper West Side (85th & Amst)".equals(option.getText()))
 //                      System.out.print(option.getText());
 
@@ -110,6 +111,7 @@ public class TaxiFareTestCheck extends taxifareApi.TaxiFareBase{
 //                          }
                //  option.click();
                   // }
+
 
             }
 
