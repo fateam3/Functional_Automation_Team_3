@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cnn test on Web browser" duration-ms="51581" started-at="2015-05-10T18:00:09Z" finished-at="2015-05-10T18:01:00Z">
+    <groups>
+    </groups>
+    <test name=" Chase Bank Home Page " duration-ms="51581" started-at="2015-05-10T18:00:09Z" finished-at="2015-05-10T18:01:00Z">
+      <class name="bank.chase.ChaseHome">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bank.chase.ChaseHome@73f792cf]" name="setUp" is-config="true" duration-ms="31754" started-at="2015-05-10T14:00:09Z" finished-at="2015-05-10T14:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahmanww]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ssk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WIN8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.cnn.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:bank.chase.ChaseHome@73f792cf]" name="homePage" duration-ms="16750" started-at="2015-05-10T14:00:41Z" finished-at="2015-05-10T14:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:bank.chase.ChaseHome@73f792cf]" name="cleanUp" is-config="true" duration-ms="3041" started-at="2015-05-10T14:00:57Z" finished-at="2015-05-10T14:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- bank.chase.ChaseHome -->
+    </test> <!--  Chase Bank Home Page  -->
+  </suite> <!-- Cnn test on Web browser -->
+</testng-results>

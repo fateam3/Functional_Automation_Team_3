@@ -90,7 +90,7 @@ public class TaxiFareTestDropDown extends TaxiFareBase{
 
                         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
                         //The below method will save the screen shot in d drive with name "screenshot.png"
-                        FileUtils.copyFile(scrFile, new File("/Users/shamimchy/Documents/screenshot/screenshot_"+(i+1)+"_"+(j+1)+"_a.png"));
+                        FileUtils.copyFile(scrFile, new File("/Users/shamimchy/Documents/screenshot/screenshot_"+(i+1)+"_"+j+"_a.png"));
 
 
                         Thread.sleep(2000);
@@ -185,7 +185,7 @@ public class TaxiFareTestDropDown extends TaxiFareBase{
 
                                 File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
                                 //The below method will save the screen shot in d drive with name "screenshot.png"
-                                FileUtils.copyFile(scrFile1, new File("/Users/shamimchy/Documents/screenshot/screenshot_"+(i+1)+"_"+(j+1)+"_b.png"));
+                                FileUtils.copyFile(scrFile1, new File("/Users/shamimchy/Documents/screenshot/screenshot_"+(i+1)+"_"+j+"_b.png"));
 
 
                                 Thread.sleep(2000);
@@ -289,7 +289,7 @@ public class TaxiFareTestDropDown extends TaxiFareBase{
 
                         File scrFile2 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
                         //The below method will save the screen shot in d drive with name "screenshot.png"
-                        FileUtils.copyFile(scrFile2, new File("/Users/shamimchy/Documents/screenshot/screenshot_"+(i+1)+"_"+(j+1)+"_c.png"));
+                        FileUtils.copyFile(scrFile2, new File("/Users/shamimchy/Documents/screenshot/screenshot_"+(i+1)+"_"+j+"_c.png"));
 
 
                         Thread.sleep(2000);
