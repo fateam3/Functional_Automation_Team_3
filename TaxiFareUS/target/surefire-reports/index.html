@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TaxiFareUS_test_on_Web_browser">
+              <span class="suite-name border-failed">TaxiFareUS test on Web browser</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TaxiFareUS_test_on_Web_browser">
+                    <span>TaxiFareTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TaxiFareUS_test_on_Web_browser">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TaxiFareUS_test_on_Web_browser">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TaxiFareUS_test_on_Web_browser">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TaxiFareUS_test_on_Web_browser">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TaxiFareUS_test_on_Web_browser">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TaxiFareUS_test_on_Web_browser">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TaxiFareUS_test_on_Web_browser" class="hide-methods failed suite-TaxiFareUS_test_on_Web_browser"> (hide)</a> <!-- hide-methods failed suite-TaxiFareUS_test_on_Web_browser -->
+                      <a href="#" panel-name="suite-TaxiFareUS_test_on_Web_browser" class="show-methods failed suite-TaxiFareUS_test_on_Web_browser"> (show)</a> <!-- show-methods failed suite-TaxiFareUS_test_on_Web_browser -->
+                    </span>
+                    <div class="method-list-content failed suite-TaxiFareUS_test_on_Web_browser">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TaxiFareUS_test_on_Web_browser" title="website.TaxiFareTestDropDown" hash-for-method="taxifareHomePage">taxifareHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TaxiFareUS_test_on_Web_browser -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TaxiFareUS_test_on_Web_browser" class="panel TaxiFareUS_test_on_Web_browser">
+          <div class="suite-TaxiFareUS_test_on_Web_browser-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">website.TaxiFareTestDropDown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="taxifareHomePage">
+                  </a> <!-- taxifareHomePage -->
+                  <span class="method-name">taxifareHomePage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 19 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;shamim-chowdhurys-macbook-pro.local&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e37479a0-4c3d-ce48-8bf8-1214542fed72
+*** Element info: {Using=id, value=cityselect}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at website.TaxiFareTestDropDown.taxifareHomePage(TaxiFareTestDropDown.java:76)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;shamim-chowdhurys-macbook-pro.local&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12343)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9061)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9208)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9155)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12128)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2058)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2391)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1227)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1681)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1529)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1397)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TaxiFareUS_test_on_Web_browser-class-failed -->
+        </div> <!-- panel TaxiFareUS_test_on_Web_browser -->
+        <div panel-name="test-xml-TaxiFareUS_test_on_Web_browser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/shamimchy/git/FuntionalTesting/TaxiFareUS/target/test-classes/TaxiFareTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;TaxiFareUS test on Web browser&quot;&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;WIN8&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;41&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
+  &lt;parameter name=&quot;useSauceLabs&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;userName&quot; value=&quot;shamimchy&quot;/&gt;
+  &lt;parameter name=&quot;key&quot; value=&quot;05144fd9-ac5f-4347-84d3-b6cc0254566a&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;http://www.taxifare.us&quot;/&gt;
+  &lt;test name=&quot; TaxiFare Home Page &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;website.TaxiFareTestDropDown&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  TaxiFare Home Page  --&gt;
+&lt;/suite&gt; &lt;!-- TaxiFareUS test on Web browser --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TaxiFareUS_test_on_Web_browser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TaxiFareUS test on Web browser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name"> TaxiFare Home Page  (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TaxiFareUS_test_on_Web_browser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TaxiFareUS test on Web browser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TaxiFareUS_test_on_Web_browser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TaxiFareUS test on Web browser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TaxiFareUS_test_on_Web_browser');
+function tableData_TaxiFareUS_test_on_Web_browser() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'taxifareHomePage')
+data.setCell(0, 2, 'website.TaxiFareTestDropDown')
+data.setCell(0, 3, 695487);
+window.suiteTableData['TaxiFareUS_test_on_Web_browser']= { tableData: data, tableDiv: 'times-div-TaxiFareUS_test_on_Web_browser'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-TaxiFareUS_test_on_Web_browser">
+              </div> <!-- times-div-TaxiFareUS_test_on_Web_browser -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TaxiFareUS_test_on_Web_browser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TaxiFareUS test on Web browser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TaxiFareUS_test_on_Web_browser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TaxiFareUS_test_on_Web_browser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">website.TaxiFareTestDropDown</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, shamimchy, 05144fd9-ac5f-4347-84d3-b6cc0254566a, WIN8, firefox, 41, http://www.taxifare.us)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">taxifareHomePage</span>
+                <span class="method-start">10991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">706574 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

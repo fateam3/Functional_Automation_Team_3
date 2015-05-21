@@ -1,0 +1,127 @@
+http://www.taxifare.us/
+The Title of The web is Taxi Fare | Estimate Taxi Cab Fare, Rates, Cost, Distance & Duration of a Taxi Trip | taxifare.us
+United States of America
+France
+Japan
+United Arab Emirates
+Unied Kingdom
+United States of America
+
+
+ ---listMenu.size()-----6
+New York City
+Anaheim, CA.
+Atlanta, GA.
+Austin, TX.
+Baltimore, MD.
+Boston,MA.
+Charleston, SC.
+Chicago, IL
+Cleveland ,OH.
+Dallas, TX.
+Denver, CO.
+Detroit, MI.
+Honolulu, HI
+Houston , TX
+Las Vegas, NV.
+Los Angeles, CA.
+Miami, FL
+Minneapolis, MN
+Nashville, TN.
+New Orleans ,LA.
+New York City, NY.
+Orlando, FL
+Philadelphia, PA>
+Phoenix, AZ
+Portland, OR
+Sacramento, CA
+San Antonio, TX.
+Salt Lake City, UT
+San Diego, CA
+San Francisco,CA.
+Savannah, GA.
+Seattle, WA.
+St. Louis, MO
+Washington, D.C.
+ Before Conver Select_enter  FRom : Disneyland
+ Select From  : John Wayne Airport
+ Before Convert Select_Enter to : Downtown Disney
+ Select to : John Wayne Airport-Orange County (SNA)
+Enter_Select From : 1313 S Disneyland Dr., Anaheim, CA 92802
+Enter_Select To : 1565 Disneyland Dr., Anaheim, CA 92802
+ Before Conver Select_enter  FRom : Buckhead (Lenox Square)
+ Select From  : CNN Center
+ Before Convert Select_Enter to : Centennial Olympic Park
+ Select to : Coca-Cola Enterprises
+Enter_Select From : 3393 Peachtree Rd NE, Atlanta, GA
+Enter_Select To : 265 Park Avenue West NW, Atlanta, GA
+ Before Conver Select_enter  FRom : Amtrak Station
+ Select From  : Texas Natural Science Center
+ Before Convert Select_Enter to : Greyhound Bus Station
+ Select to : Texas State Capitol
+Enter_Select From : 250 N Lamar Blvd, Austin, TX 78703
+Enter_Select To : 916 E Koenig Ln, Austin, TX 78751
+ Before Conver Select_enter  FRom : New Carrolton Amtrak, MARC & Metro
+ Select From  : Admiral Fell Inn
+ Before Convert Select_Enter to : Penn Station
+ Select to : Biltmore Suites
+Enter_Select From : New Carrollton Amtrak, Lanham, MD 20784
+Enter_Select To : 1500 North Charles Street, Baltimore, MD
+ Before Conver Select_enter  FRom : Manchester Airport (NH)
+ Select From  : Faneuil Hall
+ Before Convert Select_Enter to : T. F. Green Airport (RI)
+ Select to : Fenway Park
+Enter_Select From : MHT
+Enter_Select To : PVD
+ Before Conver Select_enter  FRom : Charleston Union Station
+ Select From  : Comfort Suites – West of Ashley
+ Before Convert Select_Enter to : Best Western – King Charles Inn
+ Select to : Courtyard by Marriot
+Enter_Select From : Charleston Union Station, Charleston, SC 
+Enter_Select To : Best Western – King Charles Inn , Charleston, SC 
+ Before Conver Select_enter  FRom : Midway Airport (MDW)
+ Select From  : Union Station
+ Before Convert Select_Enter to : Greyhound Bus (Cumberland CTA)
+ Select to : Sears Tower
+Enter_Select From : MDW
+Enter_Select To : 5800 N Cumberland Ave, Chicago, IL 60631
+ Before Conver Select_enter  FRom : Rta-Shaker Square Station
+ Select From  : Brownstone Inn
+ Before Convert Select_Enter to : Baymont Inn
+ Select to : Cleveland Clinic Guest House
+Enter_Select From : 13299 Shaker Sq, Cleveland, OH  44120
+Enter_Select To : 1421 Golden Gate Blvd, Cleveland, OH
+ Before Conver Select_enter  FRom : Dallas-Love Field Airport
+ Select From  : Downtown Fort Worth
+ Before Convert Select_Enter to : Dallas Central Business District
+ Select to : Downtown Dallas
+Enter_Select From : DAL
+Enter_Select To : 334 S Hall St, Dallas, TX
+ Before Conver Select_enter  FRom : Brown Palace Hotel & Spa
+ Select From  : Denver Art Museum
+ Before Convert Select_Enter to : The Inverness
+ Select to : Denver Museum of Nature & Science
+Enter_Select From : 321 17th St, Denver, CO
+Enter_Select To : 200 Inverness Dr West, Englewood, CO
+ Before Conver Select_enter  FRom : Detroit Metro Airport (DTW)
+ Select From  : Courtyard Marriott Downtown
+ Before Convert Select_Enter to : Atheneum Suite Hotel
+ Select to : Hilton Garden Inn
+Enter_Select From : DTW
+Enter_Select To : 1000 Brush St, Detroit, MI
+ Before Conver Select_enter  FRom : Hale Koa Hotel
+ Select From  : Hotel Renew
+ Before Convert Select_Enter to : Hawaii Prince Hotel
+ Select to : Kahala Hotel & Resort
+Enter_Select From : 2055 Kalia Road, Honolulu, HI 96815-1998
+Enter_Select To : 100 Holomoana St, Honolulu, HI
+ Before Conver Select_enter  FRom : Downtown
+ Select From  : Galveston Cruise Terminal
+ Before Convert Select_Enter to : William P Hobby Airport (HOU)
+ Select to : Norwegian Cruise Lines
+Enter_Select From : Downtown, Houston, TX
+Enter_Select To : HOU
+ Before Conver Select_enter  FRom : Sam Boyd Stadium
+ Before Convert Select_Enter to : Fiesta Rancho
+Enter_Select From : 7000 E Russell Rd, Las Vegas, NV
+Enter_Select To : 2400 N Rancho Dr, Las Vegas, NV

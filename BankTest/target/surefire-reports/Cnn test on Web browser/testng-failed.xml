@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Cnn test on Web browser]">
+  <parameter name="url" value="http://www.cnn.com"/>
+  <test name=" Chase Bank Home Page (failed)">
+    <classes>
+      <class name="bank.chase.ChaseHome">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="homePage"/>
+        </methods>
+      </class> <!-- bank.chase.ChaseHome -->
+    </classes>
+  </test> <!--  Chase Bank Home Page (failed) -->
+</suite> <!-- Failed suite [Cnn test on Web browser] -->

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="695.576" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="idea.version" value="14.1.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7539"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/shamimchy/git/FuntionalTesting/TaxiFareUS"/>
+    <property name="java.runtime.version" value="1.8.0_25-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA 14 CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/shamimchy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/shamimchy"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="/Applications/IntelliJ IDEA 14 CE.app/Contents/bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="shamimchy"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA 14 CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.4.jar:/Applications/IntelliJ IDEA 14 CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=14.1.3 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="java.ext.dirs" value="/Users/shamimchy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA 14 CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="taxifareHomePage" classname="website.TaxiFareTestDropDown" time="695.576">
+    <failure message="Window not found. The browser window may have been closed.&#10;Command duration or timeout: 19 milliseconds&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;shamim-chowdhurys-macbook-pro.local&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: e37479a0-4c3d-ce48-8bf8-1214542fed72&#10;*** Element info: {Using=id, value=cityselect}" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 19 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'shamim-chowdhurys-macbook-pro.local', ip: '192.168.1.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e37479a0-4c3d-ce48-8bf8-1214542fed72
+*** Element info: {Using=id, value=cityselect}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at website.TaxiFareTestDropDown.taxifareHomePage(TaxiFareTestDropDown.java:76)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'shamim-chowdhurys-macbook-pro.local', ip: '192.168.1.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12343)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9061)
+	at <anonymous class>.Resource.prototype.handle(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9208)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9155)
+	at <anonymous class>.WebDriverServer/<.handle(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12128)
+	at <anonymous class>.createHandlerFunc/<(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2058)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2391)
+	at <anonymous class>.Connection.prototype.process(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1227)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1681)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1529)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///var/folders/ng/y_0n15b1413f79tzdf1kq9mh0000gn/T/anonymous6732475388696751867webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1397)
+]]></failure>
+    <system-out><![CDATA[http://www.taxifare.us/
+The Title of The web is Taxi Fare | Estimate Taxi Cab Fare, Rates, Cost, Distance & Duration of a Taxi Trip | taxifare.us
+United States of America
+France
+Japan
+United Arab Emirates
+Unied Kingdom
+United States of America
+
+
+ ---listMenu.size()-----6
+New York City
+Anaheim, CA.
+Atlanta, GA.
+Austin, TX.
+Baltimore, MD.
+Boston,MA.
+Charleston, SC.
+Chicago, IL
+Cleveland ,OH.
+Dallas, TX.
+Denver, CO.
+Detroit, MI.
+Honolulu, HI
+Houston , TX
+Las Vegas, NV.
+Los Angeles, CA.
+Miami, FL
+Minneapolis, MN
+Nashville, TN.
+New Orleans ,LA.
+New York City, NY.
+Orlando, FL
+Philadelphia, PA>
+Phoenix, AZ
+Portland, OR
+Sacramento, CA
+San Antonio, TX.
+Salt Lake City, UT
+San Diego, CA
+San Francisco,CA.
+Savannah, GA.
+Seattle, WA.
+St. Louis, MO
+Washington, D.C.
+ Before Conver Select_enter  FRom : Disneyland
+ Select From  : John Wayne Airport
+ Before Convert Select_Enter to : Downtown Disney
+ Select to : John Wayne Airport-Orange County (SNA)
+Enter_Select From : 1313 S Disneyland Dr., Anaheim, CA 92802
+Enter_Select To : 1565 Disneyland Dr., Anaheim, CA 92802
+ Before Conver Select_enter  FRom : Buckhead (Lenox Square)
+ Select From  : CNN Center
+ Before Convert Select_Enter to : Centennial Olympic Park
+ Select to : Coca-Cola Enterprises
+Enter_Select From : 3393 Peachtree Rd NE, Atlanta, GA
+Enter_Select To : 265 Park Avenue West NW, Atlanta, GA
+ Before Conver Select_enter  FRom : Amtrak Station
+ Select From  : Texas Natural Science Center
+ Before Convert Select_Enter to : Greyhound Bus Station
+ Select to : Texas State Capitol
+Enter_Select From : 250 N Lamar Blvd, Austin, TX 78703
+Enter_Select To : 916 E Koenig Ln, Austin, TX 78751
+ Before Conver Select_enter  FRom : New Carrolton Amtrak, MARC & Metro
+ Select From  : Admiral Fell Inn
+ Before Convert Select_Enter to : Penn Station
+ Select to : Biltmore Suites
+Enter_Select From : New Carrollton Amtrak, Lanham, MD 20784
+Enter_Select To : 1500 North Charles Street, Baltimore, MD
+ Before Conver Select_enter  FRom : Manchester Airport (NH)
+ Select From  : Faneuil Hall
+ Before Convert Select_Enter to : T. F. Green Airport (RI)
+ Select to : Fenway Park
+Enter_Select From : MHT
+Enter_Select To : PVD
+ Before Conver Select_enter  FRom : Charleston Union Station
+ Select From  : Comfort Suites – West of Ashley
+ Before Convert Select_Enter to : Best Western – King Charles Inn
+ Select to : Courtyard by Marriot
+Enter_Select From : Charleston Union Station, Charleston, SC 
+Enter_Select To : Best Western – King Charles Inn , Charleston, SC 
+ Before Conver Select_enter  FRom : Midway Airport (MDW)
+ Select From  : Union Station
+ Before Convert Select_Enter to : Greyhound Bus (Cumberland CTA)
+ Select to : Sears Tower
+Enter_Select From : MDW
+Enter_Select To : 5800 N Cumberland Ave, Chicago, IL 60631
+ Before Conver Select_enter  FRom : Rta-Shaker Square Station
+ Select From  : Brownstone Inn
+ Before Convert Select_Enter to : Baymont Inn
+ Select to : Cleveland Clinic Guest House
+Enter_Select From : 13299 Shaker Sq, Cleveland, OH  44120
+Enter_Select To : 1421 Golden Gate Blvd, Cleveland, OH
+ Before Conver Select_enter  FRom : Dallas-Love Field Airport
+ Select From  : Downtown Fort Worth
+ Before Convert Select_Enter to : Dallas Central Business District
+ Select to : Downtown Dallas
+Enter_Select From : DAL
+Enter_Select To : 334 S Hall St, Dallas, TX
+ Before Conver Select_enter  FRom : Brown Palace Hotel & Spa
+ Select From  : Denver Art Museum
+ Before Convert Select_Enter to : The Inverness
+ Select to : Denver Museum of Nature & Science
+Enter_Select From : 321 17th St, Denver, CO
+Enter_Select To : 200 Inverness Dr West, Englewood, CO
+ Before Conver Select_enter  FRom : Detroit Metro Airport (DTW)
+ Select From  : Courtyard Marriott Downtown
+ Before Convert Select_Enter to : Atheneum Suite Hotel
+ Select to : Hilton Garden Inn
+Enter_Select From : DTW
+Enter_Select To : 1000 Brush St, Detroit, MI
+ Before Conver Select_enter  FRom : Hale Koa Hotel
+ Select From  : Hotel Renew
+ Before Convert Select_Enter to : Hawaii Prince Hotel
+ Select to : Kahala Hotel & Resort
+Enter_Select From : 2055 Kalia Road, Honolulu, HI 96815-1998
+Enter_Select To : 100 Holomoana St, Honolulu, HI
+ Before Conver Select_enter  FRom : Downtown
+ Select From  : Galveston Cruise Terminal
+ Before Convert Select_Enter to : William P Hobby Airport (HOU)
+ Select to : Norwegian Cruise Lines
+Enter_Select From : Downtown, Houston, TX
+Enter_Select To : HOU
+ Before Conver Select_enter  FRom : Sam Boyd Stadium
+ Before Convert Select_Enter to : Fiesta Rancho
+Enter_Select From : 7000 E Russell Rd, Las Vegas, NV
+Enter_Select To : 2400 N Rancho Dr, Las Vegas, NV
+]]></system-out>
+  </testcase>
+</testsuite>
