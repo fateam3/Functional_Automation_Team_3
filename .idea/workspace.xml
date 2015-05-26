@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="313d7afd-ed70-4a3d-b2cf-04929cfce286" name="Default" comment="Frame work&#10;Taxifare">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SocialSite/src/main/java/FaceBookHelp/FaceBookBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SocialSite/src/test/java/com/facebook/FaceBookHome.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SocialSite/src/test/java/com/facebook/SignUp.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebusiness/target/test-classes/ebusiness/amazon/AmazonBookSearch.class" afterPath="$PROJECT_DIR$/Ebusiness/target/test-classes/ebusiness/amazon/AmazonBookSearch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CoreJavExamMarch2015" afterPath="$PROJECT_DIR$/../CoreJavExamMarch2015" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebusiness/target/Ebusiness-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Ebusiness/target/Ebusiness-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SocialSite/target/SocialSite-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/SocialSite/target/SocialSite-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../project7" afterPath="$PROJECT_DIR$/../project7" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sample-code" afterPath="$PROJECT_DIR$/../sample-code" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TaxiFareUS/target/taxifareus-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TaxiFareUS/target/taxifareus-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SocialSite/src/test/resources/SocialSiteTestRun.xml" afterPath="$PROJECT_DIR$/SocialSite/src/test/resources/SocialSiteTestRun.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SocialSite/target/test-classes/SocialSiteTestRun.xml" afterPath="$PROJECT_DIR$/SocialSite/target/test-classes/SocialSiteTestRun.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TaxiFareUS/src/test/resources/TaxiFareTestRunner.xml" afterPath="$PROJECT_DIR$/TaxiFareUS/src/test/resources/TaxiFareTestRunner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TaxiFareUS/target/test-classes/TaxiFareTestRunner.xml" afterPath="$PROJECT_DIR$/TaxiFareUS/target/test-classes/TaxiFareTestRunner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebusiness/pom.xml" afterPath="$PROJECT_DIR$/Ebusiness/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TaxiFareUS/pom.xml" afterPath="$PROJECT_DIR$/TaxiFareUS/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FuntionalTesting.iws" />
@@ -1165,6 +1177,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.905242">
           <caret line="81" column="39" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,6 +1185,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.919354">
           <caret line="72" column="56" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,6 +1193,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.618952">
           <caret line="265" column="0" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
